@@ -1,0 +1,7 @@
+{
+  "name": "easyanimation-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
