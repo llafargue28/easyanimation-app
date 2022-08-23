@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'last-animation',
     loadChildren: () => import('./pages/last-animation/last-animation.module').then( m => m.LastAnimationPageModule)
+  },
+  {
+    path: 'animations',
+    loadChildren: () => import('./pages/animations/animations.module').then( m => m.AnimationsPageModule)
   }
 ];
 
