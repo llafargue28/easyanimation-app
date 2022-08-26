@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { AnimationsPageRoutingModule } from './animations-routing.module';
 
 import { AnimationsPage } from './animations.page';
+import { ModuleCommunModule } from 'src/app/components/module-commun/module-commun.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AnimationsPageRoutingModule
+    AnimationsPageRoutingModule,
+    ModuleCommunModule
   ],
   declarations: [AnimationsPage]
 })

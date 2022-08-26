@@ -15,7 +15,7 @@
       </ion-avatar>
       <ion-label>
         <h1>Margot Lafargue</h1>
-        <p>Apport <span class="money" >20 €</span></p>
+        <p>Animation :<span class="money" >45</span></p>
       </ion-label>
     </ion-item>
 
@@ -25,14 +25,20 @@
       </ion-avatar>
       <ion-label>
         <h1>Raphaëlle Lafargue</h1>
-        <p>Apport <span class="money" >15 €</span></p>
+        <p>Animation : <span class="money" >30</span></p>
       </ion-label>
     </ion-item>
   </ion-list>
 
   
 
-    <app-animate-card></app-animate-card>
+    <app-animate-card status="En Attente" updatedAt="25/08/2022 15:00" createdAt="23/08/2022"
+    notes="Le client est pas sûr du nombre de personne">
+    <ion-card-header header>  
+      <ion-card-subtitle>Dernière Evénement</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button color="success" fill="clear" size="full" footer>Voir tout</ion-button>
+    </app-animate-card>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button color="success">

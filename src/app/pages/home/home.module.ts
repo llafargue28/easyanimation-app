@@ -7,18 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
-import {AnimateCardComponent} from 'src/app/components/animate-card/animate-card.component';
+import { ModuleCommunModule } from 'src/app/components/module-commun/module-commun.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    ModuleCommunModule
   ],
   declarations: [
-    HomePage,
-    AnimateCardComponent
+    HomePage
   ]
 })
 export class HomePageModule {}

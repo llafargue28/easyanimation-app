@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-animate-card',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./animate-card.component.scss'],
 })
 export class AnimateCardComponent implements OnInit {
+
+  @Input() hasHeader : boolean ;
+  @Input() hasFooter : boolean ;
+  @Input() status : string;
+  @Input() updatedAt : String;
+  @Input() createdAt : string;
+  @Input() notes : string;
+  @Input() value : string;
 
   constructor() { }
 
